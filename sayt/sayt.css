@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(https://i.ytimg.com/vi/GkJ1470LT60/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA1Lj_FIZeEl2cL6J4yyDjStQ4iTg);
+height: 600px;
+background-size: 100% 100%;
+
+}
+.container .navbar{
+width: 100%;
+height: 80px;
+background: rgba(14, 167, 159, 0.781);
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top:20px; 
+    
+}
+.navbar ul{
+    float: right;
+    margin-right:20px ;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+}   
+.navbar ul li a{
+    color: rgb(245, 244, 244);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.box img{
+
+    width: 100%;
+    height: 600px;
+
+}
+.box h1{
+    color: rgb(12, 143, 148);
+    left: 400px;
+    top: 300px;
+}
+.box h5{
+    color: rgba(14, 128, 112, 0.938);
+    left: 200px;
+    top:350px ;
+}
+
+.banner-text h1{
+    color: rgb(43,18,153);
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight:bold ;
+    margin-bottom:5px ;
+}
+.boxes{
+    background-color: white;
+    gap: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width:20%;
+}
+.section{
+    margin: 40px;
+}
+.box_im img{
+    width:200px;
+    height: 150px;
+}
+.date{
+    background: url(https://assets-news.housing.com/news/wp-content/uploads/2022/04/27010729/VINTAGE-TO-TRENDY1.png);
+    height: 600px;
+    background-size:100% 100% ;
+}
+.date h1{
+    color: rgb(9, 71, 52);
+    padding: 200px 300px 0 200px;
+}
+.date h3{
+        color: rgb(8, 71, 51);
+        padding: 50px 150px 0 200px;
+}
+.sag{
+    width: 1100px;
+    margin: auto;
+    padding: 30px 30px 10px 10px;
+}
+.sol{
+    float: left;
+ padding: 10px 30px 10px 10px;
+}
